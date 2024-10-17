@@ -81,6 +81,10 @@ classDiagram
 
     EmailReceipt ..> ReceiptType : uses
     SMSReceipt ..> ReceiptType : uses
+```
+
+```mermaid
+    classDiagram
 
     class Menu {
         - List~MenuItem~ items
