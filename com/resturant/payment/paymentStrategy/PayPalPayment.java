@@ -3,7 +3,7 @@ public class PayPalPayment implements PaymentStrategy {
 
     @Override
     public void pay(double amount) {
-        System.out.println("Paying with Paypal");
+        System.out.println("Paying with Paypal: $"+ amount);
     }
 
     @Override
